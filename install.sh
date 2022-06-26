@@ -133,7 +133,7 @@ unset -f print
 print_modname() {
   ui_print " "
   ui_print "$name $version"
-  ui_print "Copyright (C) 2017-2020, $author"
+  ui_print "Copyright (C) 2017-2022, $author"
   ui_print "License: GPLv3+"
   ui_print " "
 }
@@ -214,12 +214,14 @@ version_info() {
   done
   ui_print " "
 
-  ui_print "  LINKS"
-  ui_print "    - New Git repository: github.com/Rikj000/mm"
-  ui_print "    - Old Git repository: github.com/Magisk-Modules-Repo/mm/"
-  ui_print "    - Original XDA thread: forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165/"
-  ui_print "    - VR25 Donate: paypal.me/vr25xda/"
-  ui_print "    - VR25 Facebook page: facebook.com/VR25-at-xda-developers-258150974794782/"
+  ui_print "  LINKS - CURRENT"
+  ui_print "    - Source Code: https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode"
+  ui_print "    - Developer: https://github.com/Rikj000"
+  ui_print "    - Donate: https://www.buymeacoffee.com/Rikj000"
+  ui_print "  LINKS - ORIGINAL"
+  ui_print "    - Source Code: https://github.com/VR-25/mm"
+  ui_print "    - Developer: https://github.com/VR-25"
+  ui_print "    - Donate: https://paypal.me/vr25xda"
   ui_print " "
 
   ui_print "  USAGE"
@@ -228,7 +230,7 @@ version_info() {
   else
     ln -sf /sdcard/mm /sbin*/
     ui_print "    - Run \"mm\" on recovery terminal and follow the wizard."
-    ui_print "    - Next time, no need to reinstall - simply run \"sh /sdcard/mm\" or \"*/mm\"."
+    ui_print "    - Next time, no need to reinstall - simply run \"*/mm\" or \"sh /sdcard/mm\"."
   fi
 
   ui_print "    - \"/sdcard/mm\" persists across /data wipes."

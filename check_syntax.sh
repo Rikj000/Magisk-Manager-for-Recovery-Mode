@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Basic shell syntax checker
-# Copyright (C) 2018-2020, VR25 & Rikj000 @ xda-developers
+# Copyright (C) 2018-2022, VR25 & Rikj000 @ xda-developers
 # License: GPLv3+
 
 echo

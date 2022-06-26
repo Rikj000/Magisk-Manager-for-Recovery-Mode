@@ -1,6 +1,6 @@
 #!/sbin/sh
 # Magisk Manager for Recovery Mode (mm)
-# Copyright (C) 2018-2021, VR25 & Rikj000 @ xda-developers
+# Copyright (C) 2018-2022, VR25 & Rikj000 @ xda-developers
 # License: GPLv3+
 
 
@@ -13,8 +13,8 @@ mountPath=/_magisk
 img=/data/adb/magisk.img
 [ -f $img ] || img=/data/adb/modules
 
-echo -e "\nMagisk Manager for Recovery Mode (mm) 2021.6.6
-Copyright (C) 2018-2021, VR25 & Rikj000 @ xda-developers
+echo -e "\nMagisk Manager for Recovery Mode (mm) 2022.6.26
+Copyright (C) 2018-2022, VR25 & Rikj000 @ xda-developers
 License: GPLv3+\n"
 
 trap 'exxit $?' EXIT
