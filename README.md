@@ -1,4 +1,19 @@
 # Magisk Manager for Recovery Mode (mm)
+<p align="left">
+    <a href="https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases">
+        <img src="https://img.shields.io/github/downloads/Rikj000/Magisk-Manager-for-Recovery-Mode/total?label=Total%20Downloads&logo=github" alt="Total Releases Downloaded from GitHub">
+    </a> <a href="https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest">
+        <img src="https://img.shields.io/github/v/release/Rikj000/Magisk-Manager-for-Recovery-Mode?include_prereleases&label=Latest%20Release&logo=github" alt="Latest Official Release on GitHub">
+    </a> <a href="https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/blob/master/License.md">
+        <img src="https://img.shields.io/github/license/Rikj000/Magisk-Manager-for-Recovery-Mode?label=License&logo=gnu" alt="GNU General Public License">
+    </a> <a href="https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode#magisk-manager-for-recovery-mode-mm">
+        <img src="https://img.shields.io/badge/Docs-mm-blue?logo=libreoffice&logoColor=white" alt="The current place where you can find all Magisk Manager for Recovery Mode (mm) Documentation!">
+    </a><a href="https://www.iconomi.com/register?ref=JdFzz">
+        <img src="https://img.shields.io/badge/Join-ICONOMI-blue?logo=bitcoin&logoColor=white" alt="ICONOMI - The world’s largest crypto strategy provider">
+    </a> <a href="https://www.buymeacoffee.com/Rikj000">
+        <img src="https://img.shields.io/badge/-Buy%20me%20a%20Coffee!-FFDD00?logo=buy-me-a-coffee&logoColor=black" alt="Buy me a Coffee as a way to sponsor this project!">
+    </a>
+</p>
 
 Easily manage your **Magisk Modules** from a terminal session in your custom recovery! *(e.g. TWRP)*
 
