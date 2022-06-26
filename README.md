@@ -1,41 +1,17 @@
 # Magisk Manager for Recovery Mode (mm)
 
+Easily manage your **Magisk Modules** from a terminal session in your custom recovery! *(e.g. TWRP)*
 
 
-## LEGAL
-
-Copyright (C) 2017-2021, VR25 & Rikj000 @ xda-developers
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
+## Disclaimer
+- Always read/re-read this reference prior to installing/upgrading this software.
+- While no cats have been harmed,   
+    the authors assume no responsibility for anything that might break due to the use/misuse of it.
+- To prevent fraud, do NOT mirror any link associated with this project; do NOT share builds *(`.zips`)*!   
+    Share official links instead.
 
 
-
-## DISCLAIMER
-
-Always read/reread this reference prior to installing/upgrading this software.
-
-While no cats have been harmed, the author assumes no responsibility for anything that might break due to the use/misuse of it.
-
-To prevent fraud, do NOT mirror any link associated with this project; do NOT share builds (zips)! Share official links instead.
-
-
-
-## DESCRIPTION
-
-- Manage your Magisk modules from recovery (e.g., TWRP) -- run "sh /sdcard/mm" on recovery terminal.
-
-Features list
+## Features list
 - Automatically fix magisk.img (e2fsck -fy)
 - List installed modules
 - Toggle
@@ -45,59 +21,68 @@ Features list
   - Remove
 
 
-
-## PREREQUISITE
-
-- Magisk v19.X - v23.X
+## Prerequisite
+- **Magisk** v19.0 - v25.X
 
 
+## Setup
 
-## SETUP
+#### Install
+1. Download & store the latest [`MagiskManagerForRecovery_vX_XXXXXXXXX.zip`](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest) release file   
+somewhere on your phone's **internal storage** *(Not on the SD or external storage!)*
+2. Install the `MagiskManagerForRecovery_vX_XXXXXXXXX.zip` release file
+    - **From System:** Use the [FoxMagiskModuleManager](https://github.com/Fox2Code/FoxMagiskModuleManager) app to install the `.zip` file from local storage
+    - **From Custom Recovery:** Use to install the `.zip` file from local storage
 
-- Install
-1. Flash live (e.g., from Magisk Manager) or from custom recovery (e.g., TWRP).
-
-- Uninstall
-- Use Magisk Manager app or mm itself (supports `uninstall.sh`, too).
-
-
-
-## USAGE
-- Store & save the MagiskManagerForRecovery_vX_XXXXXXXXX.zip file somewhere on your phone's internal storage (not on SD or external)
-- Boot into TWRP
-- Install the MagiskManagerForRecovery_vX_XXXXXXXXX.zip
-- Open up the Terminal window in TWRP & run the `mm` command to start managing your modules
-- Follow the instructions/wizard. Everything is interactive.
+#### Uninstall
+- **From System:** Use the [FoxMagiskModuleManager](https://github.com/Fox2Code/FoxMagiskModuleManager) or [Magisk Manager](https://github.com/topjohnwu/MagiskManager) app to uninstall
+- **From Custom Recovery:** Use the `*/mm` or `sh /sdcard/mm` command in a terminal session *(supports `uninstall.sh`)*
 
 
+## Usage
+1. Boot into your custom recovery *(e.g. TWRP)*
+2. Open up a terminal session from within your custom recovery
+3. Run the `*/mm` or `sh /sdcard/mm` command to start managing your modules. 
+4. Simply follow the instructions/wizard, everything is interactive!
 
-## LINKS
 
-- [New Git repository](https://github.com/Rikj000/mm)
-- [Old Git repository](https://github.com/Magisk-Modules-Repo/mm)
-- [Original XDA thread](https://forum.xda-developers.com/apps/magisk/module-tool-magisk-manager-recovery-mode-t3693165)
-- [VR25 Donate](https://paypal.me/vr25xda/)
-- [VR25 Facebook page](https://facebook.com/VR25-at-xda-developers-258150974794782/)
+## Links
+**Current - Rikj000**
+- [Source Code](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode)
+- [Developer](https://github.com/Rikj000)
+- [Donate](https://www.buymeacoffee.com/Rikj000)
 
-## LATEST CHANGES
-**2021.6.6 (202106060)**
-- Updated [README.md](https://github.com/Rikj000/mm/) since still confirmed working on **Magisk v23.X**
+**Original - VR-25** *(Deprecated!)*
+- [Source Code](https://github.com/VR-25/mm)
+- [Developer](https://github.com/VR-25)
+- [Donate](https://paypal.me/vr25xda)
 
-**2020.4.17 (202004170)**
-- **Magisk v19.X - v20.X** support
 
-**2019.4.4 (201904040)**
-- Complete redesign
-- **Magisk v17-19** support (including `uninstall.sh`)
+## Change Log
+**v7 - 2022.6.26 (202206260)**
+- Updated Magisk version support to **Magisk v19.0 - v25.X**
+- Updated documentation
+
+**v6 - 2021.6.6 (202106060)**
+- Updated Magisk version support to **Magisk v19.0 - v23.X**
+- Updated documentation
+
+**v5 - 2020.4.17 (202004170)**
+- Updated Magisk version support to **Magisk v19.0 - v20.X**
+- Updated documentation
+
+**v4 - 2019.4.4 (201904040)**
+- Updated Magisk version support to **Magisk v17.0 - v19.X** (including `uninstall.sh`)
+- Updated documentation
 - Toggle core only mode
-- Updated information (copyright, documentation, and module description)
+- Complete redesign
 
-**2018.8.1 (201808010)**
+**v3 - 2018.8.1 (201808010)**
+- Updated documentation
 - General optimizations
 - New & simplified installer
 - Striped down (removed unnecessary code & files)
-- Updated documentation
 
-**2018.7.24 (201807240)**
-- Fixed modPath detection issue on **Magisk v16.6**.
+**v2 - 2018.7.24 (201807240)**
 - Updated documentation
+- Fixed modPath detection issue on **Magisk v16.6**
