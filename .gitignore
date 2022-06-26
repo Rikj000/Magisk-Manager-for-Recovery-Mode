@@ -1,2 +1,7 @@
+# Ignore JetBrains IDEA folder
+**/.idea
+# Ignore VSCodium Workspace
+**/workspace.code-workspace
+# Ignore other file
 _builds
 _resources
