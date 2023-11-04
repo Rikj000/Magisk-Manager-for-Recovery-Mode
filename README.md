@@ -42,15 +42,15 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 
 ## Setup
 
-#### Install
+#### Install + Updates
 1. Download & store the latest [`MagiskManagerForRecovery_vX_XXXXXXXXX.zip`](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest) release file   
 somewhere on your phone's **internal storage** *(Not on the SD or external storage!)*
 2. Install the `MagiskManagerForRecovery_vX_XXXXXXXXX.zip` release file
-    - **From System:** Use the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) app to install the `.zip` file from local storage
+    - **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) to install the `.zip` file from local storage
     - **From Custom Recovery:** Use to install the `.zip` file from local storage
 
 #### Uninstall
-- **From System:** Use the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) or [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app to uninstall
+- **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) to uninstall
 - **From Custom Recovery:** Use the `*/mm` or `sh /sdcard/mm` command in a terminal session *(supports `uninstall.sh`)*
 
 
