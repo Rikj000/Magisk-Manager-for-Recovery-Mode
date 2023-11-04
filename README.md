@@ -15,7 +15,7 @@
     </a>
 </p>
 
-Easily manage your **Magisk Modules** from a terminal session in your custom recovery! *(e.g. TWRP)*
+Easily manage your **Magisk Modules** from a terminal session in your custom recovery! *(e.g. [TWRP](https://twrp.me/))*
 
 
 ## Disclaimer
@@ -37,7 +37,7 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 
 
 ## Prerequisite
-- **Magisk** v19.0 - v25.X
+- **Magisk** v19.0 - v26.X
 
 
 ## Setup
@@ -46,16 +46,16 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 1. Download & store the latest [`MagiskManagerForRecovery_vX_XXXXXXXXX.zip`](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest) release file   
 somewhere on your phone's **internal storage** *(Not on the SD or external storage!)*
 2. Install the `MagiskManagerForRecovery_vX_XXXXXXXXX.zip` release file
-    - **From System:** Use the [FoxMagiskModuleManager](https://github.com/Fox2Code/FoxMagiskModuleManager) app to install the `.zip` file from local storage
+    - **From System:** Use the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) app to install the `.zip` file from local storage
     - **From Custom Recovery:** Use to install the `.zip` file from local storage
 
 #### Uninstall
-- **From System:** Use the [FoxMagiskModuleManager](https://github.com/Fox2Code/FoxMagiskModuleManager) or [Magisk Manager](https://github.com/topjohnwu/MagiskManager) app to uninstall
+- **From System:** Use the [Androidacy/MagiskModuleManager](https://github.com/Androidacy/MagiskModuleManager) or [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app to uninstall
 - **From Custom Recovery:** Use the `*/mm` or `sh /sdcard/mm` command in a terminal session *(supports `uninstall.sh`)*
 
 
 ## Usage
-1. Boot into your custom recovery *(e.g. TWRP)*
+1. Boot into your custom recovery *(e.g. [TWRP](https://twrp.me/))*
 2. Open up a terminal session from within your custom recovery
 3. Run the `*/mm` or `sh /sdcard/mm` command to start managing your modules. 
 4. Simply follow the instructions/wizard, everything is interactive!
@@ -74,6 +74,10 @@ somewhere on your phone's **internal storage** *(Not on the SD or external stora
 
 
 ## Change Log
+**v8 - 2023.11.4 (202311040)**
+- Updated Magisk version support to **Magisk v19.0 - v26.X**
+- Updated documentation
+
 **v7 - 2022.6.26 (202206260)**
 - Updated Magisk version support to **Magisk v19.0 - v25.X**
 - Updated documentation
