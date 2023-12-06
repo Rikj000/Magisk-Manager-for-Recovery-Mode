@@ -38,19 +38,40 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 
 ## Prerequisite
 - **Magisk** v19.0 - v26.X
-
+- **TWRP** or another custom recovery with terminal session support
 
 ## Setup
 
-#### Install + Updates
+### Initial Installation
+Initial installation can be done in x2 ways
+- [MRepo](#mrepo) *(Preferred)*
+- [Manual download](#manual-download)
+
+#### MRepo
+1. Download and install the [`MRepo`](https://github.com/MRepoApp/MRepo) Magisk Manager app
+2. MRepo => Settings => Repositories => Add Repos:   
+   
+   | Source       | Link                                                   |
+   |--------------|--------------------------------------------------------|
+   | **Official** | https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/ |
+   | **Mirror**   | https://apt.izzysoft.de/magisk/                        |
+3. MRepo => Repository => Search `Magisk Manager for Recovery Mode (mm)` => Versions => Latest => Install
+
+#### Manual Download
 1. Download & store the latest [`MagiskManagerForRecovery_vX_XXXXXXXXX.zip`](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest) release file   
-somewhere on your phone's **internal storage** *(Not on the SD or external storage!)*
-2. Install the `MagiskManagerForRecovery_vX_XXXXXXXXX.zip` release file
-    - **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app to install the `.zip` file from local storage
+   somewhere on your phone's **internal storage** *(Not on the SD or external storage!)*
+2. Install the `MagiskManagerForRecovery_vX_XXXXXXXXX.zip` release file in one of following ways:
+    - **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or [MRepo](https://github.com/MRepoApp/MRepo) to install the `.zip` file from local storage
     - **From Custom Recovery:** Use to install the `.zip` file from local storage
 
-#### Uninstall
-- **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app to uninstall
+### Updates
+After the initial installation,   
+updates can be done through [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or [MRepo](https://github.com/MRepoApp/MRepo).
+
+Updating through [manual download](#manual-download) is also possible, but not preferred.
+
+### Uninstall
+- **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or [MRepo](https://github.com/MRepoApp/MRepo) to uninstall
 - **From Custom Recovery:** Use the `*/mm` or `sh /sdcard/mm` command in a terminal session *(supports `uninstall.sh`)*
 
 
@@ -59,6 +80,12 @@ somewhere on your phone's **internal storage** *(Not on the SD or external stora
 2. Open up a terminal session from within your custom recovery
 3. Run the `*/mm` or `sh /sdcard/mm` command to start managing your modules. 
 4. Simply follow the instructions/wizard, everything is interactive!
+
+
+## Build
+```bash
+BUILD_NUMBER=<enter-build-number> zip MagiskManagerForRecovery_v"$BUILD_NUMBER"_"$(date +'%Y%m%d0')" -9r * -x .*
+```
 
 
 ## Links
@@ -74,34 +101,6 @@ somewhere on your phone's **internal storage** *(Not on the SD or external stora
 
 
 ## Change Log
-**v8 - 2023.11.4 (202311040)**
-- Updated Magisk version support to **Magisk v19.0 - v26.X**
-- Updated documentation
-
-**v7 - 2022.6.26 (202206260)**
-- Updated Magisk version support to **Magisk v19.0 - v25.X**
-- Updated documentation
-
-**v6 - 2021.6.6 (202106060)**
-- Updated Magisk version support to **Magisk v19.0 - v23.X**
-- Updated documentation
-
-**v5 - 2020.4.17 (202004170)**
-- Updated Magisk version support to **Magisk v19.0 - v20.X**
-- Updated documentation
-
-**v4 - 2019.4.4 (201904040)**
-- Updated Magisk version support to **Magisk v17.0 - v19.X** (including `uninstall.sh`)
-- Updated documentation
-- Toggle core only mode
-- Complete redesign
-
-**v3 - 2018.8.1 (201808010)**
-- Updated documentation
-- General optimizations
-- New & simplified installer
-- Striped down (removed unnecessary code & files)
-
-**v2 - 2018.7.24 (201807240)**
-- Updated documentation
-- Fixed modPath detection issue on **Magisk v16.6**
+Can be found under: 
+- [CHANGELOG.md](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/blob/master/CHANGELOG.md) - For full change log history 
+- [Releases](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases) - For release based change log
