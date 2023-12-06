@@ -13,7 +13,7 @@ mountPath=/_magisk
 img=/data/adb/magisk.img
 [ -f $img ] || img=/data/adb/modules
 
-echo -e "\nMagisk Manager for Recovery Mode (mm) 2023.11.4
+echo -e "\nMagisk Manager for Recovery Mode (mm) 2023.12.6
 Copyright (C) 2018-2023, VR25 & Rikj000 @ xda-developers
 License: GPLv3+\n"
 
