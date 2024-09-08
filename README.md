@@ -37,25 +37,29 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 
 
 ## Prerequisite
-- **Magisk** v19.0 - v26.X
+- **Magisk** v19.0 - v27.X
 - **TWRP** or another custom recovery with terminal session support
 
 ## Setup
 
 ### Initial Installation
 Initial installation can be done in x2 ways
-- [MRepo](#mrepo) *(Preferred)*
+- [MRepo or MMRL](#mrepo-or-mmrl) *(Preferred)*
 - [Manual download](#manual-download)
 
-#### MRepo
-1. Download and install the [`MRepo`](https://github.com/MRepoApp/MRepo) Magisk Manager app
-2. MRepo => Settings => Repositories => Add Repos:   
+#### MRepo or MMRL
+1. Download and install the [`MRepo`](https://github.com/MRepoApp/MRepo) or [`MMRL`](https://github.com/DerGoogler/MMRL) Magisk Manager app
+2. Add the `Magisk-Modules-Rikj000-Repo`
+    - MRepo => Settings => Repositories => Add Repo
+    - MMRL => Repositories => Add Repo
    
    | Source       | Link                                                   |
    |--------------|--------------------------------------------------------|
    | **Official** | https://rikj000.github.io/Magisk-Modules-Rikj000-Repo/ |
    | **Mirror**   | https://apt.izzysoft.de/magisk/                        |
-3. MRepo => Repository => Search `Magisk Manager for Recovery Mode (mm)` => Versions => Latest => Install
+3. Install the `Magisk Manager for Recovery Mode (mm)` module
+    - MRepo => Repository => Search `Magisk Manager for Recovery Mode (mm)` => Versions => Latest => Install
+    - MMRL => Search `Magisk Manager for Recovery Mode (mm)` => Versions => Latest => Install
 
 #### Manual Download
 1. Download & store the latest [`MagiskManagerForRecovery_vX_XXXXXXXXX.zip`](https://github.com/Rikj000/Magisk-Manager-for-Recovery-Mode/releases/latest) release file   
@@ -66,12 +70,12 @@ Initial installation can be done in x2 ways
 
 ### Updates
 After the initial installation,   
-updates can be done through [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or [MRepo](https://github.com/MRepoApp/MRepo).
+updates can be done through [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app, [MRepo](https://github.com/MRepoApp/MRepo) or [MMRL](https://github.com/DerGoogler/MMRL).
 
 Updating through [manual download](#manual-download) is also possible, but not preferred.
 
 ### Uninstall
-- **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app or [MRepo](https://github.com/MRepoApp/MRepo) to uninstall
+- **From System:** Use [Magisk](https://github.com/topjohnwu/Magisk)'s Manager app, [MRepo](https://github.com/MRepoApp/MRepo) or [MMRL](https://github.com/DerGoogler/MMRL) to uninstall
 - **From Custom Recovery:** Use the `*/mm` or `sh /sdcard/mm` command in a terminal session *(supports `uninstall.sh`)*
 
 
