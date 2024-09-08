@@ -1,4 +1,8 @@
 ## Change Log
+**v10 - 2024.9.8 (202409080)**
+- Updated Magisk version support to **Magisk v19.0 - v27.X**
+- Added MMRL documentation
+
 **v9 - 2023.12.6 (202312060)**
 - Added Magisk Manager + MRepo update support
 - Updated documentation

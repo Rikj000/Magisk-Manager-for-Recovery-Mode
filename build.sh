@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Flashable zip builder
-# Copyright (C) 2018-2023, VR25 & Rikj000 @ xda-developers
+# Copyright (C) 2018-2024, VR25 & Rikj000 @ xda-developers
 # License: GPLv3+
 
 echo

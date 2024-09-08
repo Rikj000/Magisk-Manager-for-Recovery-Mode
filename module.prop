@@ -1,7 +1,7 @@
 id=mm
 name=Magisk Manager for Recovery Mode (mm)
-version=2023.12.6
-versionCode=202312060
+version=2024.9.8
+versionCode=202409080
 author=VR25 & Rikj000 @ XDA-Developers
 description=Easily manage your Magisk v19-27 Modules by running "*/mm" or "sh /sdcard/mm" from a terminal session in your custom recovery! (e.g. TWRP)
 updateJson=https://raw.githubusercontent.com/Rikj000/Magisk-Manager-for-Recovery-Mode/master/update.json

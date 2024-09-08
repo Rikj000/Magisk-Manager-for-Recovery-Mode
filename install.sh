@@ -133,7 +133,7 @@ unset -f print
 print_modname() {
   ui_print " "
   ui_print "$name $version"
-  ui_print "Copyright (C) 2017-2023, $author"
+  ui_print "Copyright (C) 2017-2024, $author"
   ui_print "License: GPLv3+"
   ui_print " "
 }
