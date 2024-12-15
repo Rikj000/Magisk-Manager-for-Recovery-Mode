@@ -37,7 +37,7 @@ Easily manage your **Magisk Modules** from a terminal session in your custom rec
 
 
 ## Prerequisite
-- **Magisk** v19.0 - v27.X
+- **Magisk** v19.0 - v28.X
 - **TWRP** or another custom recovery with terminal session support
 
 ## Setup
