@@ -1,4 +1,7 @@
 ## Change Log
+**v11 - 2024.12.15 (202412150)**
+- Updated Magisk version support to **Magisk v19.0 - v28.X**
+
 **v10 - 2024.9.8 (202409080)**
 - Updated Magisk version support to **Magisk v19.0 - v27.X**
 - Added MMRL documentation
