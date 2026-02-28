@@ -1,4 +1,7 @@
 ## Change Log
+**v12 - 2026.02.28 (202602280)**
+- Updated Magisk version support to **Magisk v19.0 - v30.X**
+
 **v11 - 2024.12.15 (202412150)**
 - Updated Magisk version support to **Magisk v19.0 - v28.X**
 
